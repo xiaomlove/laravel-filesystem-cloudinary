@@ -1,0 +1,30 @@
+{
+    "name": "xiaomlove/laravel-filesystem-cloudinary",
+    "description": "a cloudinary filesystem for laravel",
+    "type": "library",
+    "keywords": ["laravel", "filesystem", "cloudinary"],
+    "homepage": "https://github.com/xiaomlove/laravel-filesystem-cloudinary",
+    "require": {
+        "league/flysystem": "^1.0",
+        "carlosocarvalho/flysystem-cloudinary": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Chenyulingxi\\LaravelFilesystem\\Cloudinary\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xiaomlove",
+            "email": "353856593@qq.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Chenyulingxi\\LaravelFilesystem\\Cloudinary\\CloudinaryStorageServiceProvider"
+            ]
+        }
+    }
+}
